@@ -12,6 +12,10 @@ section{
     min-height: 800px;
 }
 
+#home{
+    margin-top: 10%;
+}
+
 #wrapper {
     font-size: 16px;
     padding-left: 0;
@@ -93,7 +97,7 @@ section{
 
 .sidebar-nav li a:hover, #menu-small ul li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #E08E79;
     background: rgba(255,255,255,0.2);
 }
 
@@ -137,6 +141,7 @@ section{
     line-height: 1;
     display: block;
     zoom: 1;
+    text-align: center;
 }
 
 #menu-small ul li {
@@ -198,5 +203,9 @@ section{
     #caption{
         font-size: 14px;
         padding-top: 1%;
+    }
+
+    #home{
+        margin-top: 17%
     }
 }
