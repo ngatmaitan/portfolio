@@ -8,6 +8,10 @@ h1{
     font-family: 'Dancing Script', cursive;
 }
 
+section{
+    min-height: 800px;
+}
+
 #wrapper {
     font-size: 16px;
     padding-left: 0;
@@ -56,9 +60,8 @@ h1{
     margin-right: -250px;
 }
 
-#profile{
+#profile-small{
     text-align: center;
-    margin-top: 20%;
 }
 
 #caption{
@@ -88,7 +91,7 @@ h1{
     color: #999999;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li a:hover, #menu-small ul li a:hover {
     text-decoration: none;
     color: #fff;
     background: rgba(255,255,255,0.2);
@@ -123,6 +126,35 @@ h1{
     bottom: 2px;
 }
 
+#menu-small {
+    background: #C5E0DC;
+    width: auto;
+}
+#menu-small ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    zoom: 1;
+}
+
+#menu-small ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-small ul li a {
+    color: #999999;
+    text-decoration: none;
+    display: block;
+    padding: 12px 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
@@ -152,5 +184,19 @@ h1{
 
     #menu-toggle {
         display: none;
+    }
+
+    #menu-small, #profile-small {
+        display: none;
+    }
+
+    #profile{
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    #caption{
+        font-size: 14px;
+        padding-top: 1%;
     }
 }
