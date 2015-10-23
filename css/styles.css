@@ -12,10 +12,6 @@ section{
     min-height: 800px;
 }
 
-#home{
-    margin-top: 10%;
-}
-
 #wrapper {
     font-size: 16px;
     padding-left: 0;
@@ -199,11 +195,7 @@ section{
         margin-right: 0;
     }
 
-    #menu-toggle {
-        display: none;
-    }
-
-    #menu-small, #profile-small, #contact {
+    #menu-small, #profile-small, #contact, #menu-toggle {
         display: none;
     }
 
@@ -218,6 +210,6 @@ section{
     }
 
     #home{
-        margin-top: 17%
+        margin-top: 11%
     }
 }
