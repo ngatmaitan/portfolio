@@ -168,6 +168,20 @@ section{
     font-size: 14px;
 }
 
+#logoParade
+{
+    width: 728px;
+    height: 75px;
+    position: relative;
+}
+
+#logoParade div.scrollableArea a
+{
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
