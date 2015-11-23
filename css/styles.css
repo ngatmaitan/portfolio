@@ -12,6 +12,10 @@ section{
     min-height: 800px;
 }
 
+hr{
+    border: 1px solid #774F38;
+}
+
 #wrapper {
     font-size: 16px;
     padding-left: 0;
@@ -168,18 +172,81 @@ section{
     font-size: 14px;
 }
 
-#logoParade
-{
+#logoParade{
     width: 728px;
     height: 75px;
     position: relative;
 }
 
-#logoParade div.scrollableArea a
-{
+#logoParade div.scrollableArea a{
     display: block;
     float: left;
     padding-left: 10px;
+}
+
+.Rsection{
+    margin:0 0 1em
+}
+
+.section-title{
+    font-weight:bold;
+    text-decoration: underline;
+    text-transform:uppercase;
+    font-size: .8em;
+}
+
+span{
+    font-style: italic;
+}
+
+.section-item-location{
+    font-weight:400;
+    font-size:.95em
+}
+
+.section-item{
+    margin:0 0 1.3em
+}
+
+.section-item-title{
+    margin-left:1em;
+    font-size:0.95em;
+}
+
+.section-item-description,.section-item-position{
+    color:#919191;
+    font-size:.9em;
+    margin:.2em 0 0;
+    max-width:70%
+}
+
+.section-item-list{
+    margin-top:.3em
+}
+
+.section-item-list li{
+    margin-left:1em;
+    font-size:0.9em;
+}
+
+.section-item-date{
+    float:right;text-align:right;
+}
+.section-item dl{
+    font-size:.9em
+}
+.section-item dt{
+    font-size:.9em; 
+    font-weight:bold; 
+    text-decoration: underline; 
+    text-transform:uppercase;
+    clear:left;float:left;
+    font-weight:600;
+    width:6.25em
+}
+
+.section-item dd{
+    margin-left:6.25em;
 }
 
 @media(min-width:768px) {
