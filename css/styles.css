@@ -73,6 +73,30 @@ hr{
     padding-top: 1%;
 }
 
+.resume_name{
+    font-size:20px; font-weight:bold;text-align:center;
+}
+
+.resume_info {
+    font-size:13px;text-align:center;
+}
+
+.download{
+    text-align:right; font-style:italic;line-height:2px;
+}
+
+.download>a{
+    color:#999999; text-decoration:none;
+}
+
+.download>a:hover {
+    color: #E08E79;
+}
+
+.section_caption{
+    text-align:center; font-style:italic;
+}
+
 /* Sidebar Styles */
 
 .sidebar-nav {
